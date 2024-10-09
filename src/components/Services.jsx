@@ -1,11 +1,15 @@
 // src/components/Services.jsx
 import React from "react";
+import StemMSImage from "../assets/Stem.png";
+
 
 const services = [
   {
     id: 1,
     title: "Web Design",
     description: "Creating visually appealing and user-friendly web designs.",
+    image: StemMSImage,
+    github: "https://jiggijiggi.github.io/Stem-Fellowship/", // Update with actual GitHub link
   },
   {
     id: 2,
@@ -14,7 +18,7 @@ const services = [
   },
   {
     id: 3,
-    title: "Backend Development",
+    title: "Data Analyst",
     description: "Developing robust server-side logic and databases.",
   },
   {
@@ -24,12 +28,12 @@ const services = [
   },
   {
     id: 5,
-    title: "Content Writing",
+    title: "Data Engineer",
     description: "Writing content for your business and companies.",
   },
   {
     id: 6,
-    title: "Digital Marketing",
+    title: "Artificial Intelligence and Machine Learning",
     description: "Promote your business with our digital marketing team.",
   },
 ];
@@ -57,7 +61,7 @@ const Service = () => {
                 {service.title}
               </h3>
               <p className="mt-2 text-gray-300">{service.description}</p>
-              <a href="#" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a>
+              <a href="/Projects" className="mt-4 inline-block text-green-400 hover:text-blue-500">Read More</a>
             </div>
           ))}
         </div>

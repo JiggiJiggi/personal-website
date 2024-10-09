@@ -2,28 +2,65 @@
 import React from "react";
 import employeeMSImage from "../assets/employee-ms.png";
 import bookMSImage from "../assets/admin-dashboard.png";
+import medicalMSImage from "../assets/medical-system.png";
+import StemMSImage from "../assets/Stem.png";
+import crackinterviewMSImage from "../assets/crackinterview.png";
+import rasaMSImage from "../assets/rasa.png";
+import medsMSImage from "../assets/meds.png";
+import sentiMSImage from "../assets/senti.png";
+import heartMSImage from "../assets/heart.png";
+
 
 const projects = [
   {
     id: 1,
-    name: "Employee Management System",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1/employee-ms", // Update with actual GitHub link
+    name: "Stem Career Center",
+    technologies: "React",
+    image: StemMSImage,
+    github: "https://jiggijiggi.github.io/Stem-Fellowship/", // Update with actual GitHub link
+    netlify: "https://hilarious-cat-653c7d.netlify.app/",
   },
   {
     id: 2,
-    name: "Blog App",
+    name: "CrackInterview Web App",
     technologies: "MERN Stack",
-    image: bookMSImage,
-    github: "https://github.com/YouafKhan1/blog-app", // Update with actual GitHub link
+    image: crackinterviewMSImage,
+    github: "https://github.com/JiggiJiggi/crackinterview-project", // Update with actual GitHub link
   },
   {
     id: 3,
-    name: "Book Management System",
-    technologies: "MERN Stack",
-    image: employeeMSImage,
-    github: "https://github.com/YouafKhan1/book-ms", // Update with actual GitHub link
+    name: "Machine Learning Model",
+    technologies: "Python Jupyter Notebook",
+    image: medicalMSImage,
+    github: "https://github.com/JiggiJiggi/Depression-level-of-Individuals", // Update with actual GitHub link
+  },
+  {
+    id: 4,
+    name: "Conversational AI Fitness Chatbot",
+    technologies: "Rasa & OpenAI",
+    image: rasaMSImage,
+    github: "https://github.com/JiggiJiggi/Conversational-AI-Chatbot", // Update with actual GitHub link
+  },
+  {
+    id: 5,
+    name: "Medical Recommendation System",
+    technologies: "Machine Learning Models",
+    image: medsMSImage,
+    github: "https://github.com/JiggiJiggi/Medical-Recommendation-System", // Update with actual GitHub link
+  },
+  {
+    id: 6,
+    name: "Sentiment Analysis Machine Learning",
+    technologies: "Machine Learning Models",
+    image: sentiMSImage,
+    github: "https://github.com/JiggiJiggi/Sentiment-Analysis", // Update with actual GitHub link
+  },
+  {
+    id: 6,
+    name: "Heart Risk Prediction System",
+    technologies: "EDA Techniques",
+    image: heartMSImage,
+    github: "https://github.com/JiggiJiggi/Heart-Risk-Prediction", // Update with actual GitHub link
   },
 ];
 
